@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3899FA22A0FC1F00B28A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3899F922A0FC1F00B28A7F /* AppDelegate.m */; };
+		2C3899FD22A0FC1F00B28A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3899FC22A0FC1F00B28A7F /* ViewController.m */; };
+		2C389A0022A0FC1F00B28A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3899FE22A0FC1F00B28A7F /* Main.storyboard */; };
+		2C389A0222A0FC2100B28A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C389A0122A0FC2100B28A7F /* Assets.xcassets */; };
+		2C389A0522A0FC2100B28A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C389A0322A0FC2100B28A7F /* LaunchScreen.storyboard */; };
+		2C389A0822A0FC2100B28A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389A0722A0FC2100B28A7F /* main.m */; };
+		2C389A1222A0FC2100B28A7F /* ceshiAvplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389A1122A0FC2100B28A7F /* ceshiAvplayTests.m */; };
+		2C389A1D22A0FC2100B28A7F /* ceshiAvplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389A1C22A0FC2100B28A7F /* ceshiAvplayUITests.m */; };
+		2C4B1F2D22A5F8C7005EDE02 /* LQPlayAVTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F2B22A5F8C7005EDE02 /* LQPlayAVTool.m */; };
+		2C4B1F3022A5F8D0005EDE02 /* LQPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F2F22A5F8CF005EDE02 /* LQPlayVideoViewController.m */; };
+		2C4B1F3322A5F902005EDE02 /* LQPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3222A5F902005EDE02 /* LQPopoverView.m */; };
+		2C4B1F3622A606A9005EDE02 /* FlsAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3522A606A9005EDE02 /* FlsAudioPlayer.m */; };
+		848C3E1357965103628AF99E /* libPods-ceshiAvplayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7972F730598507F513E9952F /* libPods-ceshiAvplayTests.a */; };
+		936C68B5296382D69821F935 /* libPods-ceshiAvplayUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B493BBA3BC42D052C82E7C15 /* libPods-ceshiAvplayUITests.a */; };
+		945BAA8D3F7F30D794B7E32A /* libPods-ceshiAvplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8735FBD565E351111887C5A7 /* libPods-ceshiAvplay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C389A0E22A0FC2100B28A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3899ED22A0FC1F00B28A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3899F422A0FC1F00B28A7F;
+			remoteInfo = ceshiAvplay;
+		};
+		2C389A1922A0FC2100B28A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3899ED22A0FC1F00B28A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3899F422A0FC1F00B28A7F;
+			remoteInfo = ceshiAvplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125FED44F0D69A3A0B64A207 /* Pods-ceshiAvplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplay/Pods-ceshiAvplay.release.xcconfig"; sourceTree = "<group>"; };
+		2C3899F522A0FC1F00B28A7F /* ceshiAvplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshiAvplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3899F822A0FC1F00B28A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C3899F922A0FC1F00B28A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C3899FB22A0FC1F00B28A7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C3899FC22A0FC1F00B28A7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C3899FF22A0FC1F00B28A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C389A0122A0FC2100B28A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C389A0422A0FC2100B28A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C389A0622A0FC2100B28A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C389A0722A0FC2100B28A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C389A0D22A0FC2100B28A7F /* ceshiAvplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiAvplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C389A1122A0FC2100B28A7F /* ceshiAvplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiAvplayTests.m; sourceTree = "<group>"; };
+		2C389A1322A0FC2100B28A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C389A1822A0FC2100B28A7F /* ceshiAvplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiAvplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C389A1C22A0FC2100B28A7F /* ceshiAvplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiAvplayUITests.m; sourceTree = "<group>"; };
+		2C389A1E22A0FC2100B28A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4B1F2B22A5F8C7005EDE02 /* LQPlayAVTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPlayAVTool.m; sourceTree = "<group>"; };
+		2C4B1F2C22A5F8C7005EDE02 /* LQPlayAVTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPlayAVTool.h; sourceTree = "<group>"; };
+		2C4B1F2E22A5F8CF005EDE02 /* LQPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPlayVideoViewController.h; sourceTree = "<group>"; };
+		2C4B1F2F22A5F8CF005EDE02 /* LQPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPlayVideoViewController.m; sourceTree = "<group>"; };
+		2C4B1F3122A5F902005EDE02 /* LQPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPopoverView.h; sourceTree = "<group>"; };
+		2C4B1F3222A5F902005EDE02 /* LQPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPopoverView.m; sourceTree = "<group>"; };
+		2C4B1F3422A606A9005EDE02 /* FlsAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlsAudioPlayer.h; sourceTree = "<group>"; };
+		2C4B1F3522A606A9005EDE02 /* FlsAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlsAudioPlayer.m; sourceTree = "<group>"; };
+		430470F2D071A3B2E078AB5E /* Pods-ceshiAvplayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplayUITests/Pods-ceshiAvplayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7972F730598507F513E9952F /* libPods-ceshiAvplayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ceshiAvplayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8467F12B281340435B447BA6 /* Pods-ceshiAvplayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplayTests/Pods-ceshiAvplayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8735FBD565E351111887C5A7 /* libPods-ceshiAvplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ceshiAvplay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B232071EFB00559D7C4A2942 /* Pods-ceshiAvplayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplayTests/Pods-ceshiAvplayTests.release.xcconfig"; sourceTree = "<group>"; };
+		B493BBA3BC42D052C82E7C15 /* libPods-ceshiAvplayUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ceshiAvplayUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F7C8D389225D680788E54A /* Pods-ceshiAvplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplay/Pods-ceshiAvplay.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A5DA9BED1FB8BAAF32A706 /* Pods-ceshiAvplayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceshiAvplayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ceshiAvplayUITests/Pods-ceshiAvplayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3899F222A0FC1F00B28A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945BAA8D3F7F30D794B7E32A /* libPods-ceshiAvplay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A0A22A0FC2100B28A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C3E1357965103628AF99E /* libPods-ceshiAvplayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A1522A0FC2100B28A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936C68B5296382D69821F935 /* libPods-ceshiAvplayUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A750F175BF2B3121D11F8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8735FBD565E351111887C5A7 /* libPods-ceshiAvplay.a */,
+				7972F730598507F513E9952F /* libPods-ceshiAvplayTests.a */,
+				B493BBA3BC42D052C82E7C15 /* libPods-ceshiAvplayUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3899EC22A0FC1E00B28A7F = {
+			isa = PBXGroup;
+			children = (
+				2C3899F722A0FC1F00B28A7F /* ceshiAvplay */,
+				2C389A1022A0FC2100B28A7F /* ceshiAvplayTests */,
+				2C389A1B22A0FC2100B28A7F /* ceshiAvplayUITests */,
+				2C3899F622A0FC1F00B28A7F /* Products */,
+				54480547738C43C69F58130E /* Pods */,
+				1A750F175BF2B3121D11F8C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3899F622A0FC1F00B28A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3899F522A0FC1F00B28A7F /* ceshiAvplay.app */,
+				2C389A0D22A0FC2100B28A7F /* ceshiAvplayTests.xctest */,
+				2C389A1822A0FC2100B28A7F /* ceshiAvplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3899F722A0FC1F00B28A7F /* ceshiAvplay */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B1F3122A5F902005EDE02 /* LQPopoverView.h */,
+				2C4B1F3222A5F902005EDE02 /* LQPopoverView.m */,
+				2C4B1F2C22A5F8C7005EDE02 /* LQPlayAVTool.h */,
+				2C4B1F2B22A5F8C7005EDE02 /* LQPlayAVTool.m */,
+				2C4B1F2E22A5F8CF005EDE02 /* LQPlayVideoViewController.h */,
+				2C4B1F2F22A5F8CF005EDE02 /* LQPlayVideoViewController.m */,
+				2C4B1F3422A606A9005EDE02 /* FlsAudioPlayer.h */,
+				2C4B1F3522A606A9005EDE02 /* FlsAudioPlayer.m */,
+				2C3899F822A0FC1F00B28A7F /* AppDelegate.h */,
+				2C3899F922A0FC1F00B28A7F /* AppDelegate.m */,
+				2C3899FB22A0FC1F00B28A7F /* ViewController.h */,
+				2C3899FC22A0FC1F00B28A7F /* ViewController.m */,
+				2C3899FE22A0FC1F00B28A7F /* Main.storyboard */,
+				2C389A0122A0FC2100B28A7F /* Assets.xcassets */,
+				2C389A0322A0FC2100B28A7F /* LaunchScreen.storyboard */,
+				2C389A0622A0FC2100B28A7F /* Info.plist */,
+				2C389A0722A0FC2100B28A7F /* main.m */,
+			);
+			path = ceshiAvplay;
+			sourceTree = "<group>";
+		};
+		2C389A1022A0FC2100B28A7F /* ceshiAvplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C389A1122A0FC2100B28A7F /* ceshiAvplayTests.m */,
+				2C389A1322A0FC2100B28A7F /* Info.plist */,
+			);
+			path = ceshiAvplayTests;
+			sourceTree = "<group>";
+		};
+		2C389A1B22A0FC2100B28A7F /* ceshiAvplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C389A1C22A0FC2100B28A7F /* ceshiAvplayUITests.m */,
+				2C389A1E22A0FC2100B28A7F /* Info.plist */,
+			);
+			path = ceshiAvplayUITests;
+			sourceTree = "<group>";
+		};
+		54480547738C43C69F58130E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F7C8D389225D680788E54A /* Pods-ceshiAvplay.debug.xcconfig */,
+				125FED44F0D69A3A0B64A207 /* Pods-ceshiAvplay.release.xcconfig */,
+				8467F12B281340435B447BA6 /* Pods-ceshiAvplayTests.debug.xcconfig */,
+				B232071EFB00559D7C4A2942 /* Pods-ceshiAvplayTests.release.xcconfig */,
+				E3A5DA9BED1FB8BAAF32A706 /* Pods-ceshiAvplayUITests.debug.xcconfig */,
+				430470F2D071A3B2E078AB5E /* Pods-ceshiAvplayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3899F422A0FC1F00B28A7F /* ceshiAvplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C389A2122A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplay" */;
+			buildPhases = (
+				7A8F47715C508EF9BE624FF6 /* [CP] Check Pods Manifest.lock */,
+				2C3899F122A0FC1F00B28A7F /* Sources */,
+				2C3899F222A0FC1F00B28A7F /* Frameworks */,
+				2C3899F322A0FC1F00B28A7F /* Resources */,
+				CCBD0F8C6696C4EBA7FD0878 /* [CP] Embed Pods Frameworks */,
+				BBDFBC28C0947CEA3B90CD8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceshiAvplay;
+			productName = ceshiAvplay;
+			productReference = 2C3899F522A0FC1F00B28A7F /* ceshiAvplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C389A0C22A0FC2100B28A7F /* ceshiAvplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C389A2422A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplayTests" */;
+			buildPhases = (
+				22F22F0431B96E194A8E622D /* [CP] Check Pods Manifest.lock */,
+				2C389A0922A0FC2100B28A7F /* Sources */,
+				2C389A0A22A0FC2100B28A7F /* Frameworks */,
+				2C389A0B22A0FC2100B28A7F /* Resources */,
+				2D76541928660EF78BFED14C /* [CP] Embed Pods Frameworks */,
+				2B41BB27051FF57557339CA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C389A0F22A0FC2100B28A7F /* PBXTargetDependency */,
+			);
+			name = ceshiAvplayTests;
+			productName = ceshiAvplayTests;
+			productReference = 2C389A0D22A0FC2100B28A7F /* ceshiAvplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C389A1722A0FC2100B28A7F /* ceshiAvplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C389A2722A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplayUITests" */;
+			buildPhases = (
+				3D912D39E8CB2023F21CD4F9 /* [CP] Check Pods Manifest.lock */,
+				2C389A1422A0FC2100B28A7F /* Sources */,
+				2C389A1522A0FC2100B28A7F /* Frameworks */,
+				2C389A1622A0FC2100B28A7F /* Resources */,
+				112612AB820543F1ED87B619 /* [CP] Embed Pods Frameworks */,
+				C30F8C8263C61DD95D98FABF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C389A1A22A0FC2100B28A7F /* PBXTargetDependency */,
+			);
+			name = ceshiAvplayUITests;
+			productName = ceshiAvplayUITests;
+			productReference = 2C389A1822A0FC2100B28A7F /* ceshiAvplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3899ED22A0FC1F00B28A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = fls;
+				TargetAttributes = {
+					2C3899F422A0FC1F00B28A7F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2C389A0C22A0FC2100B28A7F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C3899F422A0FC1F00B28A7F;
+					};
+					2C389A1722A0FC2100B28A7F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C3899F422A0FC1F00B28A7F;
+					};
+				};
+			};
+			buildConfigurationList = 2C3899F022A0FC1F00B28A7F /* Build configuration list for PBXProject "ceshiAvplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3899EC22A0FC1E00B28A7F;
+			productRefGroup = 2C3899F622A0FC1F00B28A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3899F422A0FC1F00B28A7F /* ceshiAvplay */,
+				2C389A0C22A0FC2100B28A7F /* ceshiAvplayTests */,
+				2C389A1722A0FC2100B28A7F /* ceshiAvplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3899F322A0FC1F00B28A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C389A0522A0FC2100B28A7F /* LaunchScreen.storyboard in Resources */,
+				2C389A0222A0FC2100B28A7F /* Assets.xcassets in Resources */,
+				2C389A0022A0FC1F00B28A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A0B22A0FC2100B28A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A1622A0FC2100B28A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112612AB820543F1ED87B619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplayUITests/Pods-ceshiAvplayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22F22F0431B96E194A8E622D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ceshiAvplayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B41BB27051FF57557339CA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplayTests/Pods-ceshiAvplayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D76541928660EF78BFED14C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplayTests/Pods-ceshiAvplayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D912D39E8CB2023F21CD4F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ceshiAvplayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8F47715C508EF9BE624FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ceshiAvplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDFBC28C0947CEA3B90CD8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplay/Pods-ceshiAvplay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30F8C8263C61DD95D98FABF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplayUITests/Pods-ceshiAvplayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBD0F8C6696C4EBA7FD0878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceshiAvplay/Pods-ceshiAvplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3899F122A0FC1F00B28A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3899FD22A0FC1F00B28A7F /* ViewController.m in Sources */,
+				2C4B1F2D22A5F8C7005EDE02 /* LQPlayAVTool.m in Sources */,
+				2C389A0822A0FC2100B28A7F /* main.m in Sources */,
+				2C4B1F3022A5F8D0005EDE02 /* LQPlayVideoViewController.m in Sources */,
+				2C3899FA22A0FC1F00B28A7F /* AppDelegate.m in Sources */,
+				2C4B1F3622A606A9005EDE02 /* FlsAudioPlayer.m in Sources */,
+				2C4B1F3322A5F902005EDE02 /* LQPopoverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A0922A0FC2100B28A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C389A1222A0FC2100B28A7F /* ceshiAvplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C389A1422A0FC2100B28A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C389A1D22A0FC2100B28A7F /* ceshiAvplayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C389A0F22A0FC2100B28A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3899F422A0FC1F00B28A7F /* ceshiAvplay */;
+			targetProxy = 2C389A0E22A0FC2100B28A7F /* PBXContainerItemProxy */;
+		};
+		2C389A1A22A0FC2100B28A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3899F422A0FC1F00B28A7F /* ceshiAvplay */;
+			targetProxy = 2C389A1922A0FC2100B28A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C3899FE22A0FC1F00B28A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3899FF22A0FC1F00B28A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C389A0322A0FC2100B28A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C389A0422A0FC2100B28A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C389A1F22A0FC2100B28A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C389A2022A0FC2100B28A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C389A2222A0FC2100B28A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F7C8D389225D680788E54A /* Pods-ceshiAvplay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7CXCQ24U4;
+				INFOPLIST_FILE = ceshiAvplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C389A2322A0FC2100B28A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125FED44F0D69A3A0B64A207 /* Pods-ceshiAvplay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7CXCQ24U4;
+				INFOPLIST_FILE = ceshiAvplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C389A2522A0FC2100B28A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8467F12B281340435B447BA6 /* Pods-ceshiAvplayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ceshiAvplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiAvplay.app/ceshiAvplay";
+			};
+			name = Debug;
+		};
+		2C389A2622A0FC2100B28A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B232071EFB00559D7C4A2942 /* Pods-ceshiAvplayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ceshiAvplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiAvplay.app/ceshiAvplay";
+			};
+			name = Release;
+		};
+		2C389A2822A0FC2100B28A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A5DA9BED1FB8BAAF32A706 /* Pods-ceshiAvplayUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ceshiAvplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceshiAvplay;
+			};
+			name = Debug;
+		};
+		2C389A2922A0FC2100B28A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430470F2D071A3B2E078AB5E /* Pods-ceshiAvplayUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ceshiAvplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ceshiAvplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceshiAvplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3899F022A0FC1F00B28A7F /* Build configuration list for PBXProject "ceshiAvplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C389A1F22A0FC2100B28A7F /* Debug */,
+				2C389A2022A0FC2100B28A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C389A2122A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C389A2222A0FC2100B28A7F /* Debug */,
+				2C389A2322A0FC2100B28A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C389A2422A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C389A2522A0FC2100B28A7F /* Debug */,
+				2C389A2622A0FC2100B28A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C389A2722A0FC2100B28A7F /* Build configuration list for PBXNativeTarget "ceshiAvplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C389A2822A0FC2100B28A7F /* Debug */,
+				2C389A2922A0FC2100B28A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3899ED22A0FC1F00B28A7F /* Project object */;
+}
